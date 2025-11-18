@@ -22,7 +22,7 @@ stage('Parallel Stages'){
    // agent {mac_server}
    steps{
  
-    bat 'mvn test'
+    bat 'mvn compile'
    }
    }
    }
